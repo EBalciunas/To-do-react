@@ -17,4 +17,6 @@
 
 .dangerBtn {
   background-color: rgb(161, 48, 48) !important;
+  color: rgb(248, 245, 245);
+  font-weight: 600;
 }
