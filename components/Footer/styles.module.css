@@ -1,0 +1,9 @@
+.wrapper {
+  height: 80px;
+  background-color: rgb(244, 185, 108);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}

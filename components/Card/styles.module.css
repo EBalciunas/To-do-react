@@ -1,0 +1,13 @@
+.link {
+  width: 400px;
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+
+.card {
+  background-color: rgb(147, 142, 142);
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
