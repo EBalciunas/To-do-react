@@ -13,8 +13,10 @@ const MainPage = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [initialLoading, setInitialLoading] = useState(true);
   const fetchTasks = async () => {
+    const token = cookie.get("jwt_token");
+
     try {
-      const response = await getAllTasks();
+      const response = await getAllTasks(token as string);
 
       setTasks(response.data.tasks);
 
